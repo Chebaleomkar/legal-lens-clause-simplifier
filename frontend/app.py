@@ -47,10 +47,7 @@ def simplify_clause(clause, temperature):
         return f"Connection error: {str(e)}"
 
 # Build the Gradio UI
-with gr.Blocks(
-    title="Legal Lens | AI Clause Simplifier",
-    theme=gr.themes.Soft(primary_hue="blue", secondary_hue="indigo")
-) as demo:
+with gr.Blocks(title="Legal Lens | AI Clause Simplifier") as demo:
 
     gr.Markdown(
         """
@@ -90,8 +87,7 @@ with gr.Blocks(
                 label="📝 Plain English",
                 lines=8,
                 max_lines=15,
-                interactive=False,
-                show_copy_button=True
+                interactive=False
             )
 
     gr.Examples(
