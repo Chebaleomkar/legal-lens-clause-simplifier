@@ -4,7 +4,6 @@ emoji: 📑
 colorFrom: blue
 colorTo: indigo
 sdk: gradio
-sdk_version: 4.21.0
 python_version: 3.11
 pinned: false
 ---
