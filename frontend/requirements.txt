@@ -1,3 +1,1 @@
-gradio
 requests
-huggingface-hub<0.26.0
